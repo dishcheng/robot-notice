@@ -1,0 +1,21 @@
+{
+    "name": "dishcheng/robot-notice",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "caicheng",
+            "email": "caicheng@cc430.cn"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "DishCheng\\RobotNotice\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.0.0",
+        "ext-curl": "*"
+    }
+}
